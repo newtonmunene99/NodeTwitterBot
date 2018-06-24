@@ -1,0 +1,50 @@
+{
+    "name": "nodetwitterbot",
+    "version": "1.0.0",
+    "description": "A NodeJs Twitter Bot",
+    "homepage": "https://github.com/newtonmunene99/NodeJs_Server",
+    "main": "lib/index",
+    "types": "lib/index",
+    "scripts": {
+        "start": "npm run build && node lib/index.js",
+        "build": "tsc",
+        "dev": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
+    },
+    "keywords": [
+        "twitter",
+        "nodejs",
+        "bot",
+        "twitter-bot"
+    ],
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "morgan": "^1.9.0",
+        "twit": "^2.2.9"
+    },
+    "devDependencies": {
+        "@types/mocha": "^5.2.3",
+        "@types/node": "^10.3.5",
+        "@types/twit": "^2.2.14",
+        "eslint": "^5.0.0",
+        "eslint-config-google": "^0.9.1",
+        "mocha": "^5.2.0",
+        "nodemon": "^1.17.5",
+        "ts-node": "^7.0.0",
+        "typescript": "^2.9.2",
+        "typescript-eslint-parser": "^16.0.0"
+    },
+    "author": {
+        "name": "Newton Munene",
+        "email": "newtonmunene99@gmail.com",
+        "url": "https://github.com/newtonmunene99"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/newtonmunene99/NodeJs_Server.git"
+    },
+    "bugs": {
+        "email": "newtonmunene99@gmail.com",
+        "url": "https://github.com/newtonmunene99/NodeJs_Server/issues"
+    }
+}
