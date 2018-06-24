@@ -39,6 +39,7 @@ export const config = {
 
 6.  Run `npm run start` to start bot.
 7.  Run `npm run dev` to start bot with live reload
+8.  `npm run start` and `npm run dev` will build for you but if you just want to build only, use `npm run build`
 
 ## To run on a remote server
 
