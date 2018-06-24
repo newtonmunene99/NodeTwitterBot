@@ -5,8 +5,15 @@ import { config } from './app.keys';
 var bot = new twit(config.twitterKeys);
 
 console.log(chalk.bgCyan.bold('Starting Up...'));
+var remainingtime = 300;
 
 setInterval(() => {
+    remainingtime = remainingtime - 1;
+    console.log('remaining time to retweets is ' + remainingtime);
+}, 1000);
+
+setInterval(() => {
+    remainingtime = 300;
     var quer =
         config.twitterConfig.queryString[
             Math.floor(Math.random() * config.twitterConfig.queryString.length)
@@ -20,7 +27,6 @@ setInterval(() => {
             lang: config.twitterConfig.language
         },
         (err, data: any, response) => {
-            console.log(quer);
             if (err) {
                 console.log(
                     chalk.magenta.bold(

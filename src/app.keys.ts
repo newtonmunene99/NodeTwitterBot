@@ -15,7 +15,7 @@ export const config = {
         ],
         language: 'en',
         username: 'newtonmunene_yg',
-        retweet: 60 * 1000 * 60, //every one hour
+        retweet: 5 * 1000 * 60, //every five minutes
         searchCount: 20
     }
 };
