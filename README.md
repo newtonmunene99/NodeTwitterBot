@@ -10,7 +10,7 @@ A twitter bot for retweets using nodejs
 2.  cd into repo
 3.  Run `npm install` to install dependencies
 4.  Register a new app on twitter developers
-5.  In src folder create a new file app.keys.ts and paste the code below
+5.  In src folder create a new file `app.keys.ts` and paste the code below.
     Fill in the required fields with credetials obtained in step 4.
 
 ```js
@@ -31,8 +31,8 @@ export const config = {
         ], // add your own queries above
         language: 'en',
         username: 'your twitter username here',
-        retweet: 0.1 * 1000 * 60, //this is the retweet interval. default is every six seconds
-        searchCount: 20 // how many retweets at a time
+        retweet: 0.1 * 1000 * 60, //this is the retweet interval in milliseconds. default is every six seconds
+        searchCount: 20 // how many retweets at every interval
     }
 };
 ```
