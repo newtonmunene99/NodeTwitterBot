@@ -1,6 +1,7 @@
 //var twit = require('twit');
 import * as twit from 'twit';
 import chalk from 'chalk';
+import * as http from 'http';
 import { config } from './app.keys';
 var bot = new twit(config.twitterKeys);
 
@@ -56,3 +57,9 @@ setInterval(() => {
         }
     );
 }, config.twitterConfig.retweet);
+
+http.createServer((req, res) => {
+    res.end(
+        'THIS IS JUST A FRONT FOR SOME OTHER SHADDY BUSINESS IN THE BACKEND!!'
+    );
+}).listen(process.env.PORT || 8080);
