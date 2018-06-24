@@ -2,7 +2,7 @@
     "name": "nodetwitterbot",
     "version": "1.0.0",
     "description": "A NodeJs Twitter Bot",
-    "homepage": "https://github.com/newtonmunene99/NodeJs_Server",
+    "homepage": "https://github.com/newtonmunene99/NodeTwitterBot/",
     "main": "lib/index",
     "types": "lib/index",
     "scripts": {
@@ -41,10 +41,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/newtonmunene99/NodeJs_Server.git"
+        "url": "git+https://github.com/newtonmunene99/NodeTwitterBot.git"
     },
     "bugs": {
         "email": "newtonmunene99@gmail.com",
-        "url": "https://github.com/newtonmunene99/NodeJs_Server/issues"
+        "url": "https://github.com/newtonmunene99/NodeTwitterBot/issues"
     }
 }
