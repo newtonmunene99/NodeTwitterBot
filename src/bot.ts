@@ -56,8 +56,8 @@ setInterval(() => {
             }
         }
     );
-    //.This code pings your app to keep your app alive if you're using the free package. Most services will force  your app  to go to sleep after a period of inactivity. For example Heroku.
-    http.get({ host: 'https://bottweet.herokuapp.com', path: '/' }, res => {});
+   /*  //.This code pings your app to keep your app alive if you're using the free package. Most services will force  your app  to go to sleep after a period of inactivity. For example Heroku.
+    http.get({ host: 'https://bottweet.herokuapp.com', path: '/' }, res => {}); */
 }, config.twitterConfig.retweet);
 
 http.createServer((req, res) => {
