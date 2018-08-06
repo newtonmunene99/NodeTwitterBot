@@ -8,11 +8,10 @@ export const config = {
     twitterConfig: {
         queryString: [
             '#gainwithxtiandela',
+            '#gain',
             '#gainwith',
             'Ionic Framework',
-            '#100daysofcode',
-            '#stenciljs',
-            '#javascript'
+            '#100daysofcode'
         ],
         language: 'en',
         username: 'newtonmunene_yg',
