@@ -1,2 +1,3 @@
 *.keys.ts
 *.keys.js
+src/app.keys.ts
